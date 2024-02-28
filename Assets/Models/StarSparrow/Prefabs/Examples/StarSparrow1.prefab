@@ -225,7 +225,8 @@ GameObject:
   - component: {fileID: 1972534431178057005}
   - component: {fileID: 3238090367535901320}
   - component: {fileID: 798532695914683970}
-  - component: {fileID: 5450817924078694021}
+  - component: {fileID: 675100054968256908}
+  - component: {fileID: 6556206695401399939}
   m_Layer: 0
   m_Name: StarSparrow1
   m_TagString: Untagged
@@ -299,7 +300,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!54 &5450817924078694021
+--- !u!114 &675100054968256908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1158561113003540375}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30051c91a6a53ef4e9ef71532f1f0f0a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemySpeed: 5
+--- !u!54 &6556206695401399939
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
